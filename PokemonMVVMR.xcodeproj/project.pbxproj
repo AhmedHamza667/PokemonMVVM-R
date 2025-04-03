@@ -29,6 +29,26 @@
 		77D477A62D82443200AEB5AC /* PokemonMVVMRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonMVVMRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		77D478FF2D838C1300AEB5AC /* Exceptions for "PokemonMVVMRTests" folder in "PokemonMVVMRTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				RepositryTests/EmptyResponse.json,
+			);
+			target = 77D4779B2D82443200AEB5AC /* PokemonMVVMRTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		77D479002D838C1300AEB5AC /* Exceptions for "PokemonMVVMRTests" folder in "Compile Sources" phase from "PokemonMVVMRTests" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 77D477982D82443200AEB5AC /* Sources */;
+			membershipExceptions = (
+				RepositryTests/EmptyResponse.json,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		77D4778E2D82443000AEB5AC /* PokemonMVVMR */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -37,6 +57,10 @@
 		};
 		77D4779F2D82443200AEB5AC /* PokemonMVVMRTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				77D478FF2D838C1300AEB5AC /* Exceptions for "PokemonMVVMRTests" folder in "PokemonMVVMRTests" target */,
+				77D479002D838C1300AEB5AC /* Exceptions for "PokemonMVVMRTests" folder in "Compile Sources" phase from "PokemonMVVMRTests" target */,
+			);
 			path = PokemonMVVMRTests;
 			sourceTree = "<group>";
 		};
